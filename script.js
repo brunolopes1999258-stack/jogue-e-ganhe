@@ -287,7 +287,7 @@ function goToCheckout() {
   // Facebook Pixel Event: InitiateCheckout
   if (typeof fbq !== 'undefined') fbq('track', 'InitiateCheckout');
   
-  window.location.href = 'https://plr.ofertas.my/pay/fc7c0020-ac6d-4184-889d-129e7c84d638';
+  window.location.href = 'https://plr.ofertas.my/pay-v2/fc7c0020-ac6d-4184-889d-129e7c84d638';
 }
 
 /* ---- Checkout Countdown ---- */
